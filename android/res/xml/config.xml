@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.phonegap.example"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>Rocking Verbs</name>
+
+  <description>
+      Irregulars verbs in English.
+  </description>
+
+  <author href="https://mep.go.cr" email="oscar1.perez.ramirez@mep.go.cr">
+      Oscar Perez
+  </author>
+
+  <cordova>
+      <access origin="http://127.0.0.1*"/>
+      <access origin=".*"/>
+      <log level="INFO"/>
+      <preference name="useBrowserHistory" value="true" />
+      <preference name="exit-on-suspend" value="false" />
+      <plugins>
+           <plugin name="NetworkStatus" value="org.apache.cordova.NetworkManager"/>
+                .....
+                .....
+                .....
+           </plugins>
+   </cordova>
+<plugin name="cordova-plugin-whitelist" source="npm" spec="*"/>
+   
+   <!-- White list https access to Youtube -->
+<allow-navigation href="https://*youtube.com/*"/>
+<uses-permission android:name="android.permission.INTERNET" />
+<preference name="orientation" value="portrait" />
+<icon src="img/ico.png" />
+<allow-navigation href="*" />
+<access origin="*" />
+<preference name="AllowInlineMediaPlayback" value="true" />
+<preference name="MediaPlaybackRequiresUserAction" value="false" />
+<allow-navigation href="*youtube*" />
+<allow-navigation href="*ytimg*" />
+<platform name="android">
+    <allow-intent href="market:*" />
+</platform>
+</widget>

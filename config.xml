@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Rocking Verbs</name>
+    <description>
+        Irregulars English verbs practice.
+    </description>
+    <author email="oscar1.perez.ramirez@mep.go.cr" href="http://mep.go.cr">
+        GESPRO
+    </author>
+    <content src="index.html" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="14" />
+    <preference value="portrait" name="orientation"/>
+    <preference name="fullscreen" value="false" />
+    
+    <plugin name="cordova-plugin-console" source="npm" spec="~1.0.2" />
+
+    <plugin name="cordova-plugin-device" source="npm" spec="~1.1.1" />
+    <plugin name="cordova-plugin-device-motion" source="npm" spec="~1.2.0" />
+
+    <!-- <plugin name="cordova-plugin-file" source="npm" spec="~4.1.1" />
+    <plugin name="cordova-plugin-file-transfer" source="npm" spec="~1.5.0" /> -->
+
+    <plugin name="cordova-plugin-inappbrowser" source="npm" spec="~1.3.0" />
+    <!-- <plugin name="cordova-plugin-media" source="npm" spec="~2.2.0" /> -->
+    <plugin name="cordova-plugin-network-information" source="npm" spec="~1.2.0" />
+
+    <!-- <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0" /> -->
+    <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
+    <platform name="android">
+      <icon src="img/ico.png"/>
+
+    </platform>
+
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>

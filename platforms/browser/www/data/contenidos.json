@@ -1,0 +1,182 @@
+{"webApp":
+  [
+    {"niveles":
+          [
+            {"verbos":
+              [ {"verbo":["regarder", "J'ai regardé", "Je regarderai", "mirar"]},
+                {"verbo":["manger", "J'ai mangé", "Je mangerai", "comer"]},
+                {"verbo":["ecouter", "J'ai écouté", "J'écouterai", "escuchar"]},
+                {"verbo":["observer", "J'ai observé", "J'observerai", "observar"]},
+                {"verbo":["dessiner", "J'ai dessiné", "Je dessinerai", "dibujar"]},
+                {"verbo":["participer", "J'ai participé", "Je participerai", "participar"]},
+                {"verbo":["ordonner", "J'ai ordonné", "J'ordonnerai", "ordenar"]},
+                {"verbo":["chanter", "J'ai chanté", "Je chanterai", "cantar"]},
+                {"verbo":["jouer", "J'ai joué", "Je jouerai", "jugar"]},
+                {"verbo":["parler", "J'ai parlé", "Je parlerai", "hablar"]}
+                ]
+              },
+
+            {"actividades":
+              [
+                { "idPregunta":"pregunta1" , "parte1":"Je peux", "parte2":"la télévision le samedi soir.", "verbo":"regarder","correcto":"regarder"},
+                { "idPregunta":"pregunta2" , "parte1":"J'", "parte2":"du riz et des haricots á midi.", "verbo":"manger" ,"correcto":"ai  mangé"},
+                { "idPregunta":"pregunta3" , "parte1":"Demain, J'", "parte2":"le prof en classe.", "verbo":"ecouter", "correcto":"écouterai"},
+                { "idPregunta":"pregunta4" , "parte1":"Avant de ", "parte2":"il faut lever le doigt.", "verbo":"parler", "correcto":"parler"},
+                { "idPregunta":"pregunta5" , "parte1":"Hier , j'", "parte2":"un chat et un oiseau.  ", "verbo":"dessiner","correcto":"ai  dessiné"},
+                { "idPregunta":"pregunta6" , "parte1":"On peut", "parte2":"les étoiles dans le ciel.", "verbo":"observer","correcto":"observer"},
+                { "idPregunta":"pregunta7" , "parte1":"Je", "parte2":"aux Jeux Olympiques de l'an 2028.", "verbo":"participer","correcto":"participerai"},
+                { "idPregunta":"pregunta8" , "parte1":"J' ", "parte2":"mes livres dans la bibliothèque. ", "verbo":"ordonner","correcto":"ai ordonné"}
+
+              ]
+            },
+            {"verbos":
+                [ {"verbo":["entrer", "J'suis entré", "J'entrerai", "entrar"]},
+                  {"verbo":["laver", "J'ai lavé", "Je laverai", "lavar"]},
+                  {"verbo":["lancer", "J'ai lancé", "Je lancerai", "lanzar"]},
+                  {"verbo":["cuisiner", "J'ai cuisiné", "Je cuisinerai", "cocinar"]},
+                  {"verbo":["préparer", "J'ai préparé", "Je préparerai", "preparar"]},
+                  {"verbo":["voyager", "J'ai voyagé", "Je voyagerai", "viajar"]},
+                  {"verbo":["marcher", "J'ai marché", "Je marcherai", "caminar"]},
+                  {"verbo":["sauter", "J'ai sauté", "Je sauterai", "saltar"]},
+                  {"verbo":["acheter", "J'ai acheté", "J'achéterai", "comprar"]},
+                  {"verbo":["mourir", "Je suis mort", "Je mourai", "morir"]}
+                ]
+              },
+
+            {"actividades":
+              [
+                { "idPregunta":"pregunta1" , "parte1":"Aujourd'hui Silvie ", "parte2":"les verres de vin .", "verbo1":"lave", "verbo2":"laverai", "correcto":"lave"},
+                { "idPregunta":"pregunta2" , "parte1":"Tu ", "parte2":"ce soir pour nos invités.", "verbo1":"as cuisiné", "verbo2":"cuisines", "correcto":"cuisines"},
+                { "idPregunta":"pregunta3" , "parte1":"I am trying to  ", "parte2":"a job close to my house.", "verbo1":"find","verbo2":"found", "correcto":"find"},
+                { "idPregunta":"pregunta4" , "parte1":"J'", "parte2":"cette nouvelle voiture.", "verbo1":"achèter", "verbo2":"achèterai", "correcto":"achèterai"},
+                { "idPregunta":"pregunta5" , "parte1":"Je", "parte2":"cette fusée vers le ciel.", "verbo1":"lancerai", "verbo2":"lancer", "correcto":"lancerai"},
+                { "idPregunta":"pregunta6" , "parte1":"La semaine derniére ,je", "parte2":"dans cette grande maison.", "verbo1":"suis entré", "verbo2":"entrerai", "correcto":"suis entré"}
+              ]
+            },
+            {"verbos":
+                [ {"verbo":["payer", "J'ai payé", "Je payerai", "pagar"]},
+                  {"verbo":["compléter", "J'ai complété", "Je complèterai", "completar"]},
+                  {"verbo":["adorer", "J'ai adoré", "J'adorerai", "adorar"]},
+                  {"verbo":["aimer", "J'ai aimé", "J'aimerai", "amar"]},
+                  {"verbo":["apprécier", "J'ai apprécié", "J'apprécierai", "apreciar"]},
+                  {"verbo":["couper", "J'ai coupé", "Je couperai", "cortar"]},
+                  {"verbo":["casser", "J'ai cassé", "Je casserai", "quebrar"]},
+                  {"verbo":["bouger", "J'ai bougé", "Je bougerai", "mover"]},
+                  {"verbo":["changer", "J'ai changé", "Je changerai", "cambiar"]},
+                  {"verbo":["descendre", "Je suis descendu", "Je descendrai", "descender"]}
+                ]
+              },
+
+            {"actividades":
+              [
+                {"id":0,"parte1":" ", "parte2":"1000 colons pour ce café ? Non, c'est trop cher.", "elementos": ["payer","Je casserai","Je payerai","changer","Je descendrai"],"objetivo":"blank_space","correcta":"payer"},
+                {"id":1,"parte1":"Je ", "parte2":"ma collection de livres l'année prochain.", "elementos":["J'ai payé","completerai","casser","J'aimerai","payer"],"objetivo":"blank_space","correcta":"completerai"},
+                {"id":2,"parte1":"J' ", "parte2":"ce disque de hip-hop .", "elementos":["changer","apprécier","ai adoré","J'ai complété","J'ai apprécié"],"objetivo":"blank_space","correcta":"ai adoré"},
+                {"id":3,"parte1":"Vous allez ", "parte2":"le rythme de cette musique.", "elementos":["descendre","J'ai cassé","aimer","J'ai changé","apprécier"],"objetivo":"blank_space","correcta":"aimer"},
+                {"id":4,"parte1":"J' ", "parte2":"le silence dans la classe !.", "elementos":["J'ai adoré","Je suis descendu","changer","apprecierai","J'aimerai"],"objetivo":"blank_space","correcta":"apprecierai"},
+                {"id":5,"parte1":"On doit  ", "parte2":"la viande avec ce couteau.", "elementos":["compléter","Je payerai","Je changerai","J'ai cassé","couper"],"objetivo":"blank_space","correcta":"couper"}
+              ]
+            },
+            {"verbos":
+              [ {"verbo":["commencer", "J'ai commencé", "Je commencerai", "comenzar"]},
+                {"verbo":["détester", "J'ai détesté", "Je détesterai", "detestar"]},
+                {"verbo":["danser", "J'ai dansé", "Je danserai", "bailar"]},
+                {"verbo":["inviter", "J'ai invité", "J'inviterai", "invitar"]},
+                {"verbo":["étudier", "J'ai étudié", "J'étudierai", "estudiar"]},
+                {"verbo":["gagner", "J'ai gagné", "Je gagnerai", "ganar"]},
+                {"verbo":["répéter", "J'ai répété", "Je répèterai", "repetir"]},
+                {"verbo":["courir", "J'ai couru", "Je courrerai", "correr"]},
+                {"verbo":["sortir", "Je suis sorti", "Je sortirai", "salir"]},
+                {"verbo":["naitre", "Je suis né", "Je naitrai", "nacer"]}
+              ]
+              },
+
+            {"actividades":
+              [
+                {"id":0, "elementos":["répéter","étudier","détester"],"objetivo":"blank_space","imagen":"bite.png","correcta":"étudier"},
+                {"id":1, "elementos":["naitre","sortir","gagner"],"objetivo":"blank_space","imagen":"sing.png","correcta":"naitre"},
+                {"id":2, "elementos":["danser","étudier","courir"],"objetivo":"blank_space","imagen":"swim.png","correcta":"courir"},
+                {"id":3, "elementos":["commencer","gagner","naitre"],"objetivo":"blank_space","imagen":"drive.png","correcta":"gagner"},
+                {"id":4, "elementos":["répéter","étudier","danser"],"objetivo":"blank_space","imagen":"ride.png","correcta":"danser"},
+                {"id":5, "elementos":["commencer","sortir","naitre"],"objetivo":"blank_space","imagen":"wear.png","correcta":"sortir"}
+              ]
+            },
+            {"verbos":
+              [ {"verbo":["rester", "J'suis resté", "Je resterai", "quedarse"]},
+                {"verbo":["souhaiter", "J'ai souhaité", "Je souhaiterai", "desear"]},
+                {"verbo":["toucher", "J'ai touché", "Je toucherai", "tocar"]},
+                {"verbo":["voter", "J'ai voté", "Je voterai", "votar"]},
+                {"verbo":["pleurer", "J'ai pleuré", "Je pleurerai", "llorar"]},
+                {"verbo":["rêver", "J'ai rêvé", "Je rêverai", "soñar"]},
+                {"verbo":["préparer", "J'ai préparé", "Je préparerai", "preparar"]},
+                {"verbo":["sauver", "J'ai sauvé", "Je sauverai", "salvar"]},
+                {"verbo":["protéger", "J'ai protégé", "Je protègerai", "proteger"]},
+                {"verbo":["voir", "J'ai vu", "Je verrai", "ver"]}
+              ]
+              },
+
+            {"actividades":
+              [
+                { "idPregunta":"pregunta1" , "parte1":"Je ", "parte2":"dormir chez un ami.", "verbo":"  ","correcto":"suis resté"},
+                { "idPregunta":"pregunta2" , "parte1":"Karla ", "parte2":"ce pull pour son anniversaire.", "verbo":"sleep" ,"correcto":"a souhaités"},
+                { "idPregunta":"pregunta3" , "parte1":"Tu ", "parte2":"l'écran du portable.", "verbo":"  ", "correcto":"toucheras"},
+                { "idPregunta":"pregunta4" , "parte1":"Les costariciens ", "parte2":"en février. ", "verbo":"  ", "correcto":"voteront"},
+                { "idPregunta":"pregunta5" , "parte1":"Je  ", "parte2":"avec ce film demain au cinema ! .  ", "verbo":"  ","correcto":"pleurerai"},
+                { "idPregunta":"pregunta6" , "parte1":"Nous ", "parte2":"d'aller aux Pays Bas.", "verbo":"  ","correcto":"rêvons"},
+                { "idPregunta":"pregunta7" , "parte1":"Le message c'est:  ", "parte2":"notre planéte ! ", "verbo":"  ","correcto":"sauver"},
+                { "idPregunta":"pregunta8" , "parte1":"Je ", "parte2":"la vie des animaux en voie de disparition. ", "verbo":"  ","correcto":"protegerai"}
+
+              ]
+            },
+            {"verbos":
+              [ {"verbo":["tomber", "Je suis tombè", "Je tomberai", "caer"]},
+                {"verbo":["monter", "Je suis montè", "Je monterai", "subir"]},
+                {"verbo":["avoir", "J'ai  eu", "J'aurai", "tener"]},
+                {"verbo":["etre", "J' ai été", "Je serai", "ser o estar"]},
+                {"verbo":["faire", "J'ai  fait", "Je  ferai", "hacer"]},
+                {"verbo":["aller", "Je suis allé", "J'irai", "ir"]},
+                {"verbo":["vouloir", "J'ai voulu", "Je voudrai", "querer"]},
+                {"verbo":["pouvoir", "J'ai pu", "Je pourrai", "poder"]},
+                {"verbo":["battre", "J'ai battu", "Je battrai", "pelear o batir"]},
+                {"verbo":["rire", "J'ai ri", "Je rirai", "reir"]}
+              ]
+              },
+
+            {"actividades":
+              [
+                { "idPregunta":"pregunta1" , "parte1":"Tu ", "parte2":"un accident á la plage ?.", "verbo1":"as eu", "verbo2":"auras", "correcto":"as eu"},
+                { "idPregunta":"pregunta2" , "parte1":"Je ", "parte2":"á Paris en été. ", "verbo1":"ai été", "verbo2":"serai", "correcto":"serai"},
+                { "idPregunta":"pregunta3" , "parte1":"Lucas vient de  ", "parte2":"un examen d'italien.", "verbo1":"ferai","verbo2":"faire", "correcto":"faire"},
+                { "idPregunta":"pregunta4" , "parte1":"Nous ", "parte2":"á la piscine le samedi prochain.", "verbo1":"irons", "verbo2":"sommes allés", "correcto":"irons"},
+                { "idPregunta":"pregunta5" , "parte1":"", "parte2":"c'est pouvoir !. ", "verbo1":"ai voulu ", "verbo2":"vouloir", "correcto":"vouloir"},
+                { "idPregunta":"pregunta6" , "parte1":"Tu  ", "parte2":"chanter plus fort s'il vous plait !. ", "verbo1":"as pu", "verbo2":"peux", "correcto":"peux"},
+                { "idPregunta":"pregunta7" , "parte1":" ", "parte2":" ", "verbo1":" ", "verbo2":" ", "correcto":" "},
+                { "idPregunta":"pregunta8" , "parte1":" ", "parte2":" ", "verbo1":" ", "verbo2":" ", "correcto":" "}
+              ]
+            }
+          ]
+
+    },
+    {"iconos":
+      ["n1","n2","n3","n4","n5","n6"]
+    },
+
+    {"canciones":
+      [
+        { "id":"01" , "titulo":"Counting Stars", "artista":"One Republic", "descripcion":"Counting stars is a fantastic way to...", "url1":"https://www.youtube.com/watch?v=hT_nvWreIhg", "url2":"https://www.youtube.com/watch?v=K3LCDFh0ZOY"},
+        { "id":"02" , "titulo":"Paradise", "artista":"Coldplay", "descripcion":"Counting stars is a fantastic way to...","url1":"https://www.youtube.com/watch?v=1G4isv_Fylg", "url2":"https://www.youtube.com/watch?v=DbVz0jP722g" },
+        { "id":"03" ,  "titulo":"The wrong direction", "artista":"Passenger", "descripcion":"Counting stars is a fantastic way to...", "url1":"https://www.youtube.com/watch?v=VvRVu78IHHo", "url2":"https://www.youtube.com/watch?v=OMTMr95oeMc" },
+        { "id":"04" , "titulo":"The one that got away", "artista":"Katy Perry", "descripcion":"Counting stars is a fantastic way to...", "url1":"https://www.youtube.com/watch?v=Ahha3Cqe_fk", "url2":"https://www.youtube.com/watch?v=XGMn7F4qmrI" },
+        { "id":"05" , "titulo":"Somebody that I used to know", "artista":"Gotye", "descripcion":"Counting stars is a fantastic way to...", "url1":"https://www.youtube.com/watch?v=8UVNT4wvIGY", "url2":"https://www.youtube.com/watch?v=yJO1ef4r3hM" },
+        { "id":"06" , "titulo":"Something I need", "artista":"One Republic", "descripcion":"Counting stars is a fantastic way to...", "url1":"https://www.youtube.com/watch?v=qKCGBgOgp08", "url2":"https://www.youtube.com/watch?v=u2vVwhLMjH0" },
+        { "id":"07" ,  "titulo":"Over my head", "artista":"The Fray", "descripcion":"Counting stars is a fantastic way to...", "url1":"https://www.youtube.com/watch?v=fFRkpvvop3I", "url2":"https://www.youtube.com/watch?v=3VZOmGOwmxw" },
+        { "id":"08" , "titulo":"Learn and Speak English irregulars verbs ", "artista":"N/A", "descripcion":"Counting stars is a fantastic way to...", "url1":"https://www.youtube.com/watch?v=gNaDvAYC0Jw", "url2":"https://www.youtube.com/watch?v=nEyW91xmU1k" }
+      ]
+    },
+    {"creditos":
+      [
+        {"Auteur":"Eugenia Rodríguez González ", "Développeurs": "Oscar Pérez Ramírez,Patricia Hernández Conejo,Luis Chacón Campos. ", "Graphiste y Enregistrement audio": "Gabriela Cruz Martínez", "Audio": "Béatrice Passot.Colaboradora ACOPROF. ", "Idée originale":"Katherine Williams Jiménez." }
+      ]
+    }
+  ]
+}

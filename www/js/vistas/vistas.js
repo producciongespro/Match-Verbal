@@ -337,7 +337,7 @@ console.log("Ya tienen la clase BV: "+size);
 Vista.prototype.vDetalleVerbo = function (etiquetas, clase) {
   var btn, maxBotones=4;
   console.log("Esto ya se ve");
-  var titulos = ["Present","Past","Past Participe"];
+  var titulos = ["Infinitif","Passé composé","Futur simple"];
   $("#contenedor").append("<audio id='audio1' src='audios/audioRock.mp3'></audio>");
   $("#contenedor").append("<center><div id='botonera' class='col-xs-12'></div></center>");
   for (var i = 0; i < maxBotones; i++) {

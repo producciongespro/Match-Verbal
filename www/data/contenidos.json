@@ -163,16 +163,16 @@
 
     {"canciones":
       [
-        { "id":"01" , "titulo":"Counting Stars", "artista":"One Republic", "descripcion":"Counting stars is a fantastic way to...", "url1":"https://www.youtube.com/watch?v=hT_nvWreIhg", "url2":"https://www.youtube.com/watch?v=K3LCDFh0ZOY"},
-        { "id":"02" , "titulo":"Paradise", "artista":"Coldplay", "descripcion":"Counting stars is a fantastic way to...","url1":"https://www.youtube.com/watch?v=1G4isv_Fylg", "url2":"https://www.youtube.com/watch?v=DbVz0jP722g" },
-        { "id":"03" ,  "titulo":"The wrong direction", "artista":"Passenger", "descripcion":"Counting stars is a fantastic way to...", "url1":"https://www.youtube.com/watch?v=VvRVu78IHHo", "url2":"https://www.youtube.com/watch?v=OMTMr95oeMc" },
-        { "id":"04" , "titulo":"The one that got away", "artista":"Katy Perry", "descripcion":"Counting stars is a fantastic way to...", "url1":"https://www.youtube.com/watch?v=Ahha3Cqe_fk", "url2":"https://www.youtube.com/watch?v=XGMn7F4qmrI" },
-        { "id":"05" , "titulo":"Somebody that I used to know", "artista":"Gotye", "descripcion":"Counting stars is a fantastic way to...", "url1":"https://www.youtube.com/watch?v=8UVNT4wvIGY", "url2":"https://www.youtube.com/watch?v=yJO1ef4r3hM" },
-        { "id":"06" , "titulo":"Something I need", "artista":"One Republic", "descripcion":"Counting stars is a fantastic way to...", "url1":"https://www.youtube.com/watch?v=qKCGBgOgp08", "url2":"https://www.youtube.com/watch?v=u2vVwhLMjH0" },
-        { "id":"07" ,  "titulo":"Over my head", "artista":"The Fray", "descripcion":"Counting stars is a fantastic way to...", "url1":"https://www.youtube.com/watch?v=fFRkpvvop3I", "url2":"https://www.youtube.com/watch?v=3VZOmGOwmxw" },
-        { "id":"08" , "titulo":"Learn and Speak English irregulars verbs", "artista":"N/A", "descripcion":"Counting stars is a fantastic way to...", "url1":"https://www.youtube.com/watch?v=gNaDvAYC0Jw", "url2":"https://www.youtube.com/watch?v=nEyW91xmU1k" }
-      ]
-    },
+        { "id":"01" , "titulo":"Mama Africa feat", "artista":"Kids United", "descripcion":"Clip officiel...", "url1":"https://www.youtube.com/watch?v=Nn1Zs_ijOZA", "url2":"https://www.youtube.com/watch?v=bxt7WvmBxls"},
+        { "id":"02" , "titulo":"On a beau dire", "artista":"Caroline Costa", "descripcion":"Clip officiel.....","url1":"https://www.youtube.com/watch?v=zAYdUbCu7UI&list=PL36C4BF155F7A94FF&index=7", "url2":"https://www.youtube.com/watch?v=tyamGG-ShVM" },
+        { "id":"03" ,  "titulo":"Awa Imani", "artista":"Chocolat feat", "descripcion":"...", "url1":"https://www.youtube.com/watch?v=NuXaPB_KWg8", "url2":"https://www.youtube.com/watch?v=u019K-PIPug" },
+        { "id":"04" , "titulo":"J'ai cherché", "artista":"Amir", "descripcion":"Lyrics video...", "url1":"https://www.youtube.com/watch?v=lsH2KKInYH0", "url2":"https://www.youtube.com/watch?v=Az-ltxOK1HY" },
+        { "id":"05" , "titulo":"Papaoutai", "artista":"Stromae", "descripcion":"...", "url1":"https://www.youtube.com/watch?v=JtjBbqc7PvU", "url2":"https://www.youtube.com/watch?v=MbR5EHHSfx4" },
+        { "id":"06" , "titulo":"Despacito", "artista":"Queen Fumi and Avel", "descripcion":"french cover...", "url1":"https://www.youtube.com/watch?v=w0-uuMVvlyA", "url2":"https://www.youtube.com/watch?v=Nf6UCfL_xCc" },
+        { "id":"07" ,  "titulo":"Le long de la route", "artista":"Zaz", "descripcion":"...", "url1":"https://www.youtube.com/watch?v=XZaI3kVnoeA&index=11&list=PL36C4BF155F7A94FF", "url2":"https://www.youtube.com/watch?v=nD6Xwt8JsJE" },
+        { "id":"08" , "titulo":"La Fée", "artista":"Zaz", "descripcion":"...", "url1":"https://www.youtube.com/watch?v=4l0ge5UnuuA", "url2":"https://www.youtube.com/watch?v=aE2ZnjEbrtY" }
+        { "id":"09" , "titulo":"La pluie", "artista":"Za", "descripcion":"...", "url1":"https://www.youtube.com/watch?v=-8ZqhPtlXpM", "url2":"https://www.youtube.com/watch?v=SJusbv35joo" }]
+        { "id":"10" , "titulo":"Libérée, délivrée", "artista":"Disney FR", "descripcion":"...", "url1":"https://www.youtube.com/watch?v=wQP9XZc2Y_c", "url2":"https://www.youtube.com/watch?v=kxTeFyuLM3c" }},
     {"creditos":
       [
         {"Auteur":"Eugenia Rodríguez González", "Développeurs": "Oscar Pérez Ramírez,Patricia Hernández Conejo,Luis Chacón Campos.", "Graphiste y Enregistrement audio": "Gabriela Cruz Martínez", "Audio": "Béatrice Passot.Colaboradora ACOPROF.", "Idée originale":"Katherine Williams Jiménez." }

@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Rocking Verbs</name>
+    <name>Match Verbal</name>
     <description>
-        Irregulars English verbs practice.
+        Pratique des verbes français irréguliers.
     </description>
-    <author email="oscar1.perez.ramirez@mep.go.cr" href="http://mep.go.cr">
+    <author email="gespro@mep.go.cr" href="http://mep.go.cr">
         GESPRO
     </author>
     <content src="index.html" />

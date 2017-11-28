@@ -149,7 +149,7 @@ else {
 };
 
 Controlador.prototype.cDetalleVerbo = function () {
-  Controlador.vista.vEncabezado("","Niveau "+(Controlador.nivel/2+1),"img/icons/On-T.png");
+  Controlador.vista.vEncabezado("","Niveau "+(Controlador.nivel/2+1),"");
   Controlador.prototype.verDetalle();
   Controlador.vista.vDetalleVerbo(Controlador.tiemposVerbales, "detalle-verbos");
   $("#verbo0").click(Controlador.prototype.cAudios);
@@ -318,7 +318,6 @@ Controlador.prototype.cComparar = function (elemento1,elemento2) {
 Controlador.prototype.cActividades = function (tipo) {
   console.log(tipo);
 
-  // console.log(Controlador.mainArray.webApp["0"].niveles[2].actividades);
   switch (tipo) {
     case 1:
       {
@@ -358,7 +357,7 @@ Controlador.prototype.cActividades = function (tipo) {
 
   }
 
-  // })
+
   pantalla=7;
 };
 

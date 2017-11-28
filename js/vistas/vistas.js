@@ -7,6 +7,7 @@ var totalEjercicios = 0;
 var nivelActual;
 var verbosCliqueados = [];
 var nivelesCompletados = [];
+var audio;
 
 function Vista() {
 console.log(localStorage.getItem("VerbosVistos"));
@@ -48,21 +49,14 @@ Vista.prototype.vPortada = function (rutaImg, clase) {
   $(objeto).attr("src",rutaImg);
   $(objeto).attr("class",clase)
   $("#contenedor").append(objeto);
-  $("#contenedor").append("<audio id='intro' src='audios/intro.mp3'></audio>");
-  Audio();
 };
 
-function Audio() {
-      // document.getElementById('intro').play();
-  console.log("****** objeto audio creado");
-}
+
 
 Vista.prototype.vBotones = function (texto, etiquetas, clase) {
 
   var cont, ico, maxBotones=6;
   $("#contenedor").append("<center><img width='10%' height='10%' display='inline' src='img/icons/llave-T.png'><h1 display='inline'>"+texto+"</h1></center>");
-  // $("#contenedor").append("<div id='botonera' ></div>");
-  // $("#contenedor").append("<br>");
   $("#contenedor").append("<div class='row'>");
   $("#contenedor").append("<div id='botonera1' class='col-xs-6'></div>");
   $("#contenedor").append("<div id='botonera2' class='col-xs-6'></div>");
@@ -77,13 +71,10 @@ Vista.prototype.vBotones = function (texto, etiquetas, clase) {
     // Crea el objeto imagen:
     ico = $("<img>");
     $(ico).attr("src","img/niveles/"+etiquetas[i]+".png");
-    // $(ico).attr("width","296px");
     $(ico).attr("id", "nivel"+(i+1));
-    // $(ico).attr("height","296px");
     $(ico).attr("alt","nivel "+(i+1));
     $(ico).attr("class","img-responsive");
     // Le asigna la clase:
-    // $(cont).addClass(clase);
     $(ico).addClass(clase);
 
     if (i<3) {
@@ -94,7 +85,6 @@ Vista.prototype.vBotones = function (texto, etiquetas, clase) {
     if (i>2) {
       $("#botonera2").append(ico);
     }
-    // $("#botonera").append(ico);
     // Se agrega el objeto al DOM
 if ((i+1)>localStorage.getItem("ultimoNivel")) {
     $("#nivel"+(i+1)).removeClass("botones-menu");
@@ -103,8 +93,6 @@ if ((i+1)>localStorage.getItem("ultimoNivel")) {
 
   $("#nivel"+localStorage.getItem("ultimoNivel")).addClass("charSelected");
 
-
-// $("#contenedor").addClass("pantallas");
   }
 
   var ventanaVideo = ("<div id='myModal' class='modal'>");
@@ -120,10 +108,10 @@ if ((i+1)>localStorage.getItem("ultimoNivel")) {
   $("#contenedor").append(ventanaVideo);
   $('#no').attr("onClick","salir()");
   $('#yes').attr("onClick","salirYResetear()");
-  // $("#confirmacion").attr("style.visibility","hidden");
+
   $("#reset").attr("onClick","resetear()")
     karaoke = $("<img>");
-  // $(karaoke).attr("id","divKaraoke");
+
   $(karaoke).attr("width","75%");
   $(karaoke).attr("height","75%");
   $(karaoke).attr("class","img-responsive");
@@ -159,14 +147,14 @@ if ((i+1)>localStorage.getItem("ultimoNivel")) {
       $(kar).attr("height","96");
       $(kar).attr("alt","cancion "+(i+1));
       $(kar).attr("aling","center");
-      // $(cont).addClass(clase);
+
 
 
       $("#botonera").append(kar);
       // Se agrega el objeto al DOM
       $("#contenedor").addClass("pantallas");
       $("#icoDerecha").attr ("onClick","Controlador.prototype.irACreditos()");
-      // $("#contenedor").attr ("margin","20px");
+
 
     }
   };
@@ -191,12 +179,12 @@ if ((i+1)>localStorage.getItem("ultimoNivel")) {
     poner2=urlLetra;
     $(acceso2).attr("onClick", "location.href=Vista.urlLetra")
 
-    // $("#contenedor").append("<br>");
+    ;
     $("#contenedor").append("<center><img width='10%' height='10%' src='img/icons/Microfono-T.png'><h1>"+texto+"</h1></center>");
     $("#contenedor").append("<div id='detalle-karaoke'>");
         $("#detalle-karaoke").append("<h3><strong>"+titulo+"</strong><h3");
         $("#detalle-karaoke").append("<strong>"+cantante+"</strong><br>");
-        // $("#detalle-karaoke").append(explicacion+"<br>");
+
         $("#detalle-karaoke").append("<br>");
         $("#detalle-karaoke").append(acceso1);
         $("#detalle-karaoke").append(acceso2);
@@ -206,7 +194,7 @@ if ((i+1)>localStorage.getItem("ultimoNivel")) {
   };
 
 Vista.prototype.vCreditos = function (titulo,texto) {
-// style='font-size:16px'
+
   $("#contenedor").append("<br><center><h1>"+titulo+"</h1></center><br>");
   $("#contenedor").append("<p id='creditos'>"+texto+"</p><br>");
   $("#contenedor").append("<center><img id='logoApp' src='img/logo.png' ></center><br>");
@@ -255,7 +243,7 @@ console.log(verbosCliqueados.indexOf(etiquetas[0]));
     $(btn).attr("id","btn"+i);
     $(btn).attr("name","Botón "+i);
     $(btn).attr("class","btn btn-primary btn-xs");
-    // $(btn).attr("height","60px");
+
     // Se le agrega la etiequeta:
     $(btn).text(etiquetas[i]);
     if (etiquetas[i].length>7) {
@@ -313,15 +301,12 @@ console.log(verbosCliqueados.indexOf(etiquetas[0]));
 
           $("#btn"+(temp-1)).addClass("charSelected");
           console.log("#btn"+(temp-1));
-      // }
-        // else {
-        //     $("#btn"+(temp)).addClass("charSelected");
-        // }
+
     }
   }
-  // $("#btn"+(temp-1)).addClass("charSelected");
+
 console.log(temp);
-// || verbosCliqueados.length > 10*(Controlador.nivel/2+1)
+
 console.log("nivel Actual es" +(Controlador.nivel/2+1));
 
 console.log("Ya tienen la clase BV: "+size);
@@ -338,7 +323,7 @@ Vista.prototype.vDetalleVerbo = function (etiquetas, clase) {
   var btn, maxBotones=4;
   console.log("Esto ya se ve");
   var titulos = ["Infinitif","Passé composé","Futur simple"];
-  $("#contenedor").append("<audio id='audio1' src='audios/audioRock.mp3'></audio>");
+  $("#contenedor").append("<audio id='audio1' src='audios/intro.mp3'></audio>");
   $("#contenedor").append("<center><div id='botonera' class='col-xs-12'></div></center>");
   for (var i = 0; i < maxBotones; i++) {
     // Crea el objeto boton:
@@ -352,13 +337,13 @@ Vista.prototype.vDetalleVerbo = function (etiquetas, clase) {
 
         siguiente = Controlador.listaVerbos.indexOf(etiquetas[0]) + 1;
         temporal = Controlador.listaVerbos.indexOf(etiquetas[0]);
-        // $("#btn"+temporal).addClass("visto");
-        // console.log("Verbo número:" +temporal);
+
+
         if (siguiente==10) {
           console.log("Intentando cambiar a TRUE.....");
           completo="true";
           var temp=JSON.parse(localStorage.getItem('nivelesVistos'))
-          // console.log("Indice :"+nivelesVistos.indexOf((Controlador.nivel/2)+1));
+
           if (temp.indexOf((Controlador.nivel/2)+1) < 0) {
             nivelesCompletados.push((Controlador.nivel/2)+1);
             localStorage.setItem("nivelesVistos", JSON.stringify(nivelesCompletados));
@@ -398,7 +383,7 @@ Vista.prototype.vDetalleVerbo = function (etiquetas, clase) {
 
     $("#contenedor").addClass("pantallas");
     $("#botonera").append(btn);
-    // $("#contenedor").append(btn);
+
     $("#icoDerecha").attr("onClick","play()")
   }
 };
@@ -468,7 +453,7 @@ Audio.prototype.vAudios = function (rutaAudio) {
         opciones += "<option>"+Controlador.seleccionar[i].verbo2+"</option>";
         opciones += "</select>";
         listaObjetosHTML += (i+1)+". "+ Controlador.seleccionar[i].parte1+" "+opciones+" ";
-        // listaObjetosHTML += "id= respuesta"+i+"\n";
+
         respuestas[i] = $("#respuesta"+i);
         listaObjetosHTML +=  Controlador.seleccionar[i].parte2+" <br><p class='renglones'></p>";
 console.log("Agregadas las opciones del item" + i);
@@ -571,7 +556,7 @@ $(objetoHTML).attr("css", "padding:0");
       $("#lateral").append(listaObjetosHTML);
       $("#contenedor").append("</div></div>");
 
-      // $("#"+listaActividad[ejercicio].correcta).attr("height","200%");
+
       elemento= listaActividad[ejercicio].elementos[0];
         for (var i = 0; i < 3; i++) {
           quien = "soy"+listaActividad[ejercicio].elementos[i];
@@ -635,7 +620,7 @@ pie = $("<div data-role='footer' padding-bottom=5px data-position='fixed' class=
       else {objHtml += "<img class='img-responsive' height='54%' width='54%' src='img/icons/botonBlanco.png'></div></div></div>";}
     $(pie).html(objHtml);
 
-    // $("#contenedor").append("<hr>");
+
   $("#contenedor").append(pie);
 };
 
@@ -736,8 +721,7 @@ function validarRespuesta() {
 
         case 4:
         console.log("Evaluando ejercicio 3");
-            // maxRespuestas = (Controlador.seleccionar.length);
-            // respuestasAEvaluar=Controlador.seleccionar;
+          
           break;
 
         case 8:

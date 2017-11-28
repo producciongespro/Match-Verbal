@@ -2,7 +2,7 @@
 <widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Match Verbal</name>
     <description>
-        Pratique des verbes français irréguliers.
+        Pratique des verbes francais irreguliers.
     </description>
     <author email="gespro@mep.go.cr" href="http://mep.go.cr">
         GESPRO
@@ -12,7 +12,7 @@
     <preference name="android-minSdkVersion" value="14" />
     <preference value="portrait" name="orientation"/>
     <preference name="fullscreen" value="false" />
-    
+
     <plugin name="cordova-plugin-console" source="npm" spec="~1.0.2" />
 
     <plugin name="cordova-plugin-device" source="npm" spec="~1.1.1" />

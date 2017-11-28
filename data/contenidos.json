@@ -170,9 +170,12 @@
         { "id":"05" , "titulo":"Papaoutai", "artista":"Stromae", "descripcion":"...", "url1":"https://www.youtube.com/watch?v=JtjBbqc7PvU", "url2":"https://www.youtube.com/watch?v=MbR5EHHSfx4" },
         { "id":"06" , "titulo":"Despacito", "artista":"Queen Fumi and Avel", "descripcion":"french cover...", "url1":"https://www.youtube.com/watch?v=w0-uuMVvlyA", "url2":"https://www.youtube.com/watch?v=Nf6UCfL_xCc" },
         { "id":"07" ,  "titulo":"Le long de la route", "artista":"Zaz", "descripcion":"...", "url1":"https://www.youtube.com/watch?v=XZaI3kVnoeA&index=11&list=PL36C4BF155F7A94FF", "url2":"https://www.youtube.com/watch?v=nD6Xwt8JsJE" },
-        { "id":"08" , "titulo":"La Fée", "artista":"Zaz", "descripcion":"...", "url1":"https://www.youtube.com/watch?v=4l0ge5UnuuA", "url2":"https://www.youtube.com/watch?v=aE2ZnjEbrtY" }
-        { "id":"09" , "titulo":"La pluie", "artista":"Za", "descripcion":"...", "url1":"https://www.youtube.com/watch?v=-8ZqhPtlXpM", "url2":"https://www.youtube.com/watch?v=SJusbv35joo" }]
-        { "id":"10" , "titulo":"Libérée, délivrée", "artista":"Disney FR", "descripcion":"...", "url1":"https://www.youtube.com/watch?v=wQP9XZc2Y_c", "url2":"https://www.youtube.com/watch?v=kxTeFyuLM3c" }},
+        { "id":"08" , "titulo":"La Fée", "artista":"Zaz", "descripcion":"...", "url1":"https://www.youtube.com/watch?v=4l0ge5UnuuA", "url2":"https://www.youtube.com/watch?v=aE2ZnjEbrtY" },
+        { "id":"09" , "titulo":"La pluie", "artista":"Za", "descripcion":"...", "url1":"https://www.youtube.com/watch?v=-8ZqhPtlXpM", "url2":"https://www.youtube.com/watch?v=SJusbv35joo" },
+        { "id":"10" , "titulo":"Libérée, délivrée", "artista":"Disney FR", "descripcion":"...", "url1":"https://www.youtube.com/watch?v=wQP9XZc2Y_c", "url2":"https://www.youtube.com/watch?v=kxTeFyuLM3c" }
+      ]
+      },
+
     {"creditos":
       [
         {"Auteur":"Eugenia Rodríguez González", "Développeurs": "Oscar Pérez Ramírez,Patricia Hernández Conejo,Luis Chacón Campos.", "Graphiste y Enregistrement audio": "Gabriela Cruz Martínez", "Audio": "Béatrice Passot.Colaboradora ACOPROF.", "Idée originale":"Katherine Williams Jiménez." }

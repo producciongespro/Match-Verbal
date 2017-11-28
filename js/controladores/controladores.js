@@ -96,12 +96,12 @@ Controlador.prototype.cDetalleKaraoke = function () {
 
 Controlador.prototype.cCreditos = function () {
   console.log("Controlador créditos");
-  textoCreditos= "<strong>Author:</strong> "+Controlador.mainArray.webApp["3"].creditos[0].Author+"<br>";
-  textoCreditos+= "<strong>Developers:</strong> "+Controlador.mainArray.webApp["3"].creditos[0].Developers+"<br>";
-  textoCreditos+= "<strong>Graphic Designer:</strong> "+Controlador.mainArray.webApp["3"].creditos[0].Graphic_Designer+"<br>";
-  textoCreditos+= "<strong>Audio recording:</strong> "+Controlador.mainArray.webApp["3"].creditos[0].Audio_recording+"<br>";
-  textoCreditos+= "<strong>Voice:</strong> "+Controlador.mainArray.webApp["3"].creditos[0].Voice+"<br>";
-  Controlador.vista.vCreditos("Credits",textoCreditos);
+  textoCreditos= "<strong>Auteur:</strong> "+Controlador.mainArray.webApp["3"].creditos[0].Auteur+"<br>";
+  textoCreditos+= "<strong>Développeurs:</strong> "+Controlador.mainArray.webApp["3"].creditos[0].Développeurs+"<br>";
+  textoCreditos+= "<strong>Graphiste y Enregistrement audio:</strong> "+Controlador.mainArray.webApp["3"].creditos[0].Graphiste_y_Enregistrement_audio+"<br>";
+  textoCreditos+= "<strong>Audio:</strong> "+Controlador.mainArray.webApp["3"].creditos[0].Audio+"<br>";
+  textoCreditos+= "<strong>Idée originale:</strong> "+Controlador.mainArray.webApp["3"].creditos[0].Idée_originale+"<br>";
+  Controlador.vista.vCreditos("Crédits",textoCreditos);
   Controlador.vista.vPiePantalla("","img/icons/home.PNG","");
 
   pantalla=6;

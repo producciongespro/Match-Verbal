@@ -108,7 +108,7 @@
                 {"verbo":["voter", "J'ai voté", "Je voterai", "votar"]},
                 {"verbo":["pleurer", "J'ai pleuré", "Je pleurerai", "llorar"]},
                 {"verbo":["rêver", "J'ai rêvé", "Je rêverai", "soñar"]},
-                {"verbo":["préparer", "J'ai préparé", "Je préparerai", "preparar"]},
+                {"verbo":["abandonner", "J'ai abandonné", "J'abandonnerai", "abandonar"]},
                 {"verbo":["sauver", "J'ai sauvé", "Je sauverai", "salvar"]},
                 {"verbo":["protéger", "J'ai protégé", "Je protègerai", "proteger"]},
                 {"verbo":["voir", "J'ai vu", "Je verrai", "ver"]}
@@ -117,14 +117,14 @@
 
             {"actividades":
               [
-                { "idPregunta":"pregunta1" , "parte1":"Je ", "parte2":"dormir chez un ami.", "verbo":"  ","correcto":"suis resté"},
-                { "idPregunta":"pregunta2" , "parte1":"Karla ", "parte2":"ce pull pour son anniversaire.", "verbo":"sleep" ,"correcto":"a souhaités"},
-                { "idPregunta":"pregunta3" , "parte1":"Tu ", "parte2":"l'écran du portable.", "verbo":"  ", "correcto":"toucheras"},
-                { "idPregunta":"pregunta4" , "parte1":"Les costariciens ", "parte2":"en février.", "verbo":"  ", "correcto":"voteront"},
-                { "idPregunta":"pregunta5" , "parte1":"Je  ", "parte2":"avec ce film demain au cinema!.", "verbo":"  ","correcto":"pleurerai"},
-                { "idPregunta":"pregunta6" , "parte1":"Nous ", "parte2":"d'aller aux Pays Bas.", "verbo":"  ","correcto":"rêvons"},
-                { "idPregunta":"pregunta7" , "parte1":"Le message c'est:  ", "parte2":"notre planéte!", "verbo":"  ","correcto":"sauver"},
-                { "idPregunta":"pregunta8" , "parte1":"Je ", "parte2":"la vie des animaux en voie de disparition.", "verbo":"  ","correcto":"protegerai"}
+                { "idPregunta":"pregunta1" , "parte1":"Je ", "parte2":"dormir chez un ami.", "verbo":"rester","correcto":"suis resté"},
+                { "idPregunta":"pregunta2" , "parte1":"Karla ", "parte2":"ce pull pour son anniversaire.", "verbo":"souhaiter" ,"correcto":"a souhaité"},
+                { "idPregunta":"pregunta3" , "parte1":"Tu ", "parte2":"l'écran du portable.", "verbo":"toucher", "correcto":"toucheras"},
+                { "idPregunta":"pregunta4" , "parte1":"Les costariciens ", "parte2":"en février.", "verbo":"voter", "correcto":"voteront"},
+                { "idPregunta":"pregunta5" , "parte1":"Je  ", "parte2":"avec ce film demain au cinema!.", "verbo":"pleurer","correcto":"pleurerai"},
+                { "idPregunta":"pregunta6" , "parte1":"Nous ", "parte2":"d'aller aux Pays Bas.", "verbo":"rêver","correcto":"rêvons"},
+                { "idPregunta":"pregunta7" , "parte1":"Le message c'est:  ", "parte2":"notre planéte!", "verbo":"sauver","correcto":"sauver"},
+                { "idPregunta":"pregunta8" , "parte1":"Je ", "parte2":"la vie des animaux en voie de disparition.", "verbo":"protéger","correcto":"protegerai"}
 
               ]
             },
@@ -149,9 +149,7 @@
                 { "idPregunta":"pregunta3" , "parte1":"Lucas vient de", "parte2":"un examen d'italien.", "verbo1":"ferai","verbo2":"faire", "correcto":"faire"},
                 { "idPregunta":"pregunta4" , "parte1":"Nous", "parte2":"á la piscine le samedi prochain.", "verbo1":"irons", "verbo2":"sommes allés", "correcto":"irons"},
                 { "idPregunta":"pregunta5" , "parte1":"", "parte2":"c'est pouvoir !. ", "verbo1":"ai voulu", "verbo2":"vouloir", "correcto":"vouloir"},
-                { "idPregunta":"pregunta6" , "parte1":"Tu", "parte2":"chanter plus fort s'il vous plait!.", "verbo1":"as pu", "verbo2":"peux", "correcto":"peux"},
-                { "idPregunta":"pregunta7" , "parte1":" ", "parte2":" ", "verbo1":" ", "verbo2":" ", "correcto":" "},
-                { "idPregunta":"pregunta8" , "parte1":" ", "parte2":" ", "verbo1":" ", "verbo2":" ", "correcto":" "}
+                { "idPregunta":"pregunta6" , "parte1":"Tu", "parte2":"chanter plus fort s'il vous plait!.", "verbo1":"as pu", "verbo2":"peux", "correcto":"peux"}
               ]
             }
           ]
@@ -178,7 +176,7 @@
 
     {"creditos":
       [
-        {"Auteur":"Eugenia Rodríguez González", "Développeurs": "Oscar Pérez Ramírez,Patricia Hernández Conejo,Luis Chacón Campos.", "Graphiste y Enregistrement audio": "Gabriela Cruz Martínez", "Audio": "Béatrice Passot.Colaboradora ACOPROF.", "Idée originale":"Katherine Williams Jiménez." }
+        {"Auteur":"Eugenia Rodríguez González", "Développeurs": "Oscar Pérez Ramírez,Patricia Hernández Conejo,Luis Chacón Campos.", "Graphiste_y_Enregistrement_audio": "Gabriela Cruz Martínez", "Audio": "Béatrice Passot.Colaboradora ACOPROF.", "Idée_originale":"Katherine Williams Jiménez." }
       ]
     }
   ]

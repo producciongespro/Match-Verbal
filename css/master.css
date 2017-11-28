@@ -171,11 +171,29 @@ and (-webkit-min-device-pixel-ratio: 1)
         padding: 1%;
         margin: 2%;
         width: 28%;
-        height: 18%;
+        height: 20%;
         text-align: center;
         display: inline-block;
         font-family: 'Muli', sans-serif;
         font-size: 1.3em;
+        cursor: pointer;
+        background-color: #fff;
+        color: #009ee3;
+        border: 2px solid #009ee3;
+        border-radius: 10px 10px 10px 10px;
+        -moz-border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+    }
+
+    .tarjetas2{
+        padding: 1%;
+        margin: 2%;
+        width: 28%;
+        height: 18%;
+        text-align: center;
+        display: inline-block;
+        font-family: 'Muli', sans-serif;
+        font-size: 1.1em;
         cursor: pointer;
         background-color: #fff;
         color: #009ee3;
@@ -238,7 +256,7 @@ and (-webkit-min-device-pixel-ratio: 1)
 
 div.scroll {
     background-color: #FFFFFF;
-    width: 95%;
+    width: 92%;
     height: 55%;
     overflow:auto;
 }
@@ -445,8 +463,8 @@ height: 55%;
   }
 
 .paraEscribir{
-  width: 55px;
-  height: 15px;
+  width: 90px;
+  height: 18px;
 }
 
 .textoItemes{
@@ -627,6 +645,7 @@ height:48px;
 .bntCheck{
 width: 92px;
 height: 38px;
+z-index: 100;
 }
 
 .btnRevisar{

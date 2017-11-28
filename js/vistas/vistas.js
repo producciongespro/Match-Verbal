@@ -258,7 +258,7 @@ console.log(verbosCliqueados.indexOf(etiquetas[0]));
     // $(btn).attr("height","60px");
     // Se le agrega la etiequeta:
     $(btn).text(etiquetas[i]);
-    if (etiquetas[i].length>8) {
+    if (etiquetas[i].length>7) {
       $(btn).attr("class","botones-verbosXL");
 
     }
@@ -532,7 +532,12 @@ Vista.prototype.vActividadDrag = function (listaActividad,cantidad,instrucciones
       for (var i = 0; i < cantidad; i++) {
             objetoHTML = $("<div></div>");
             $(objetoHTML).text(listaActividad[ejercicio].elementos[i]);
-      $(objetoHTML).attr("class", "arrastrable tarjetas");
+            $(objetoHTML).attr("class", "arrastrable tarjetas");
+if (listaActividad[ejercicio].elementos[i].length>9) {
+$(objetoHTML).attr("style", "font-size: 3.5vw");
+$(objetoHTML).attr("css", "padding:0");
+}
+
 
       $(objetoHTML).attr("id", listaActividad[ejercicio].elementos[i]);
       listaObjetosHTML.push(objetoHTML);
@@ -823,6 +828,7 @@ function deshabilitar() {
   }
   var disabled = $( ".arrastrable" ).draggable( "option", "disabled" );
   $(".tarjetas").attr("onClick","");
+  $(".tarjetas2").attr("onClick","");
   console.log(aciertos+"/"+totalEjercicios);
   if (Controlador.nivel==4) {
     totalEjercicios--;
@@ -873,6 +879,7 @@ function animar(elemento,correcta,y) {
       document.getElementById(elemento).innerHTML = elemento.slice(3)+" <span class='glyphicon glyphicon-ok'> ";
       $("#"+elemento).attr("style","color:green");
       $("#tarjetas").attr("onClick","");
+          $("#tarjetas2").attr("onClick","");
     } else {
       console.log("Esa no es la correcta");
       document.getElementById('wrong').play();

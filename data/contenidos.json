@@ -47,7 +47,7 @@
               [
                 { "idPregunta":"pregunta1" , "parte1":"Aujourd'hui Silvie ", "parte2":"les verres de vin .", "verbo1":"lave", "verbo2":"laverai", "correcto":"lave"},
                 { "idPregunta":"pregunta2" , "parte1":"Tu ", "parte2":"ce soir pour nos invités.", "verbo1":"as cuisiné", "verbo2":"cuisines", "correcto":"cuisines"},
-                { "idPregunta":"pregunta3" , "parte1":"I am trying to  ", "parte2":"a job close to my house.", "verbo1":"find","verbo2":"found", "correcto":"find"},
+                { "idPregunta":"pregunta3" , "parte1":"", "parte2":"c'est une experience de vie!", "verbo1":"voyager","verbo2":"voyagerai", "correcto":"voyager"},
                 { "idPregunta":"pregunta4" , "parte1":"J'", "parte2":"cette nouvelle voiture.", "verbo1":"achèter", "verbo2":"achèterai", "correcto":"achèterai"},
                 { "idPregunta":"pregunta5" , "parte1":"Je", "parte2":"cette fusée vers le ciel.", "verbo1":"lancerai", "verbo2":"lancer", "correcto":"lancerai"},
                 { "idPregunta":"pregunta6" , "parte1":"La semaine derniére ,je", "parte2":"dans cette grande maison.", "verbo1":"suis entré", "verbo2":"entrerai", "correcto":"suis entré"}

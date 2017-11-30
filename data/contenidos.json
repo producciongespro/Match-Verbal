@@ -19,10 +19,10 @@
             {"actividades":
               [
                 { "idPregunta":"pregunta1" , "parte1":"Je peux", "parte2":"la télévision le samedi soir.", "verbo":"regarder","correcto":"regarder"},
-                { "idPregunta":"pregunta2" , "parte1":"J'", "parte2":"du riz et des haricots á midi.", "verbo":"manger" ,"correcto":"ai  mangé"},
+                { "idPregunta":"pregunta2" , "parte1":"J'", "parte2":"du riz et des haricots á midi.", "verbo":"manger" ,"correcto":"ai mangé"},
                 { "idPregunta":"pregunta3" , "parte1":"Demain, J'", "parte2":"le prof en classe.", "verbo":"ecouter", "correcto":"écouterai"},
                 { "idPregunta":"pregunta4" , "parte1":"Avant de ", "parte2":"il faut lever le doigt.", "verbo":"parler", "correcto":"parler"},
-                { "idPregunta":"pregunta5" , "parte1":"Hier , j'", "parte2":"un chat et un oiseau.  ", "verbo":"dessiner","correcto":"ai  dessiné"},
+                { "idPregunta":"pregunta5" , "parte1":"Hier , j'", "parte2":"un chat et un oiseau.  ", "verbo":"dessiner","correcto":"ai dessiné"},
                 { "idPregunta":"pregunta6" , "parte1":"On peut", "parte2":"les étoiles dans le ciel.", "verbo":"observer","correcto":"observer"},
                 { "idPregunta":"pregunta7" , "parte1":"Je", "parte2":"aux Jeux Olympiques de l'an 2028.", "verbo":"participer","correcto":"participerai"},
                 { "idPregunta":"pregunta8" , "parte1":"J' ", "parte2":"mes livres dans la bibliothèque. ", "verbo":"ordonner","correcto":"ai ordonné"}

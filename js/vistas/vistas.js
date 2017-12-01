@@ -551,7 +551,7 @@ $(objetoHTML).attr("css", "padding:0");
             listaObjetosHTML.push(objetoHTML);
             listaObjetosHTML.push("<br><br>");
     }
-      $("#contenedor").append("<div id='espacioArrastrable' class='row'> <br><br><div id='vacio' class='col-xs-4'><br><img  id="+listaActividad[ejercicio].correcta+" src=img/draws/"+listaActividad[ejercicio].imagen+"></div><div id='lateral' style= 'display: inline-block' align='right' class='col-xs-8'>");
+      $("#contenedor").append("<div id='espacioArrastrable' class='row'> <br><br><div id='vacio' class='col-xs-7'><br><img class='img-resposive' id="+listaActividad[ejercicio].correcta+" src=img/draws/"+listaActividad[ejercicio].imagen+"></div><div id='lateral' style= 'display: inline-block' align='right' class='col-xs-5'>");
       $('#espacioArrastrable').addClass("espacioDisponible");
       $("#lateral").append(listaObjetosHTML);
       $("#contenedor").append("</div></div>");

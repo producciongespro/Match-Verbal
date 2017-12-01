@@ -505,69 +505,79 @@ console.log("Agregadas las opciones del item" + i);
 
   };
 
-  Vista.prototype.vActividadDrag = function (listaActividad,cantidad,instrucciones) {
-    var listaObjetosHTML=[], objetoHTML, maxItems=listaActividad.length;
-    totalEjercicios=maxItems;
-    $("#contenedor").append("<audio id='correct' src='audios/correct.mp3'></audio>");
-    $("#contenedor").append("<audio id='wrong' src='audios/wrong.mp3'></audio>");
-    $("#contenedor").append("<h4>"+instrucciones+"</h4>");
-    switch (Controlador.nivel-1) {
-      case 3:
-        for (var i = 0; i < cantidad; i++) {
-              objetoHTML = $("<div></div>");
-              $(objetoHTML).text(listaActividad[ejercicio].elementos[i]);
-        $(objetoHTML).attr("class", "arrastrable tarjetasPeq");
+Vista.prototype.vActividadDrag = function (listaActividad,cantidad,instrucciones) {
+  var listaObjetosHTML=[], objetoHTML, maxItems=listaActividad.length;
+  totalEjercicios=maxItems;
+  $("#contenedor").append("<audio id='correct' src='audios/correct.mp3'></audio>");
+  $("#contenedor").append("<audio id='wrong' src='audios/wrong.mp3'></audio>");
+  $("#contenedor").append("<br><h4>"+instrucciones+"</h4>");
+  console.log(Controlador.nivel);
+  switch (Controlador.nivel-1) {
+    case 3:
+      for (var i = 0; i < cantidad; i++) {
+            objetoHTML = $("<div></div>");
+            $(objetoHTML).text(listaActividad[ejercicio].elementos[i]);
+            $(objetoHTML).attr("class", "arrastrable tarjetas");
+if (listaActividad[ejercicio].elementos[i].length>9) {
+$(objetoHTML).attr("style", "font-size: 3.5vw");
+$(objetoHTML).attr("css", "padding:0");
+}
 
-        $(objetoHTML).attr("id", listaActividad[ejercicio].elementos[i]);
-        listaObjetosHTML.push(objetoHTML);
-      }
-      $("#contenedor").append("<br><div id='espacioArrastrable'>");
-      $('#espacioArrastrable').addClass("espacioDisponible");
-      $('#espacioArrastrable').addClass("textoItemes");
-        $("#espacioArrastrable").append(listaObjetosHTML);
-        $("#espacioArrastrable").append("<br><br><br>");
-        $("#espacioArrastrable").append("<span>"+listaActividad[ejercicio].parte1+"</span>");
-        $("#espacioArrastrable").append("<div id='vacio' class='camposVacios'>___________ </div>");
-        $("#vacio").attr("style","padding-top:30px");
-        $("#espacioArrastrable").append("<span>"+listaActividad[ejercicio].parte2+"</span>");
-        $("#espacioArrastrable").append("<br>");
-      break;
 
-      case 5:
-      for (var i = 0; i < 3; i++) {
-              objetoHTML = $("<div id=soy"+listaActividad[ejercicio].elementos[i]+"></div>");
-              $(objetoHTML).text(listaActividad[ejercicio].elementos[i]);
-              listaObjetosHTML.push(objetoHTML);
-              listaObjetosHTML.push("<br><br>");
-          }
-          // id='vacio'
-          // <div id='espacioArrastrable'>
-        $("#contenedor").append("<p class='renglones'></p><div class='row'> <br><br><div  class='col-xs-6'><br><img id="+listaActividad[ejercicio].correcta+" src=img/draws/"+listaActividad[ejercicio].imagen+"></div><div id='lateral' style= 'display: inline-block' align='right' class='col-xs-6'>");
-        $('#espacioArrastrable').addClass("espacioDisponible");
-        $("#lateral").append(listaObjetosHTML);
-        $("#contenedor").append("</div></div>");
-
-        // $("#"+listaActividad[ejercicio].correcta).attr("height","200%");
-        elemento= listaActividad[ejercicio].elementos[0];
-          for (var i = 0; i < 3; i++) {
-            quien = "soy"+listaActividad[ejercicio].elementos[i];
-            es = "soy"+listaActividad[ejercicio].correcta;
-            $("#soy"+listaActividad[ejercicio].elementos[i]).attr("onClick","animar('"+quien+"','"+es+"','"+i+"')");
-            $("#soy"+listaActividad[ejercicio].elementos[i]).attr("class","tarjetas");
-          }
-
-        //
-        // $("#"+listaActividad[ejercicio].correcta).attr("class","soltable");
-          $("#"+listaActividad[ejercicio].correcta).addClass("dibujoVerbo");
-          $("#"+listaActividad[ejercicio].correcta).addClass("img-responsive");
-        break;
-        default:
+      $(objetoHTML).attr("id", listaActividad[ejercicio].elementos[i]);
+      listaObjetosHTML.push(objetoHTML);
     }
+    $("#contenedor").append("<br><div id='espacioArrastrable'>");
+    $('#espacioArrastrable').addClass("espacioDisponible");
+    $('#espacioArrastrable').addClass("textoItemes");
+    $("#espacioArrastrable").attr("font-size","18px");
+      $("#espacioArrastrable").append(listaObjetosHTML);
+      $("#espacioArrastrable").append("<br><br><br>");
+      $("#espacioArrastrable").append(listaActividad[ejercicio].parte1);
+      $("#espacioArrastrable").append("<div id='vacio' class='camposVacios'>___________ </div>");
+      $("#vacio").attr("style","padding-top:30px");
+      $("#espacioArrastrable").append(listaActividad[ejercicio].parte2);
+      $("#espacioArrastrable").append("<br>");
+    break;
 
-    $("#contenedor").attr("style","padding-left: 20px; padding-right: 20px; font-family: 'Muli'; font-size: 16px;");
-    $("#contenedor").append("<img id='next' class='btnRevisar' align=right src='img/icons/nextInactivo.png'><br>");
-    palabraCorrecta = listaActividad[ejercicio].correcta;
-  };
+    case 5:
+
+    console.log("Entré a las actividades 4");
+    for (var i = 0; i < 3; i++) {
+            objetoHTML = $("<div id=soy"+listaActividad[ejercicio].elementos[i]+"></div>");
+            $(objetoHTML).text(listaActividad[ejercicio].elementos[i]);
+            console.log("ejercicio="+ejercicio);
+            console.log(listaActividad[ejercicio].elementos[i]);
+            listaObjetosHTML.push(objetoHTML);
+            listaObjetosHTML.push("<br><br>");
+    }
+      $("#contenedor").append("<div id='espacioArrastrable' class='row'> <br><br><div id='vacio' class='col-xs-4'><br><img  id="+listaActividad[ejercicio].correcta+" src=img/draws/"+listaActividad[ejercicio].imagen+"></div><div id='lateral' style= 'display: inline-block' align='right' class='col-xs-8'>");
+      $('#espacioArrastrable').addClass("espacioDisponible");
+      $("#lateral").append(listaObjetosHTML);
+      $("#contenedor").append("</div></div>");
+
+
+      elemento= listaActividad[ejercicio].elementos[0];
+        for (var i = 0; i < 3; i++) {
+          quien = "soy"+listaActividad[ejercicio].elementos[i];
+          es = "soy"+listaActividad[ejercicio].correcta;
+          console.log(quien);
+          $("#soy"+listaActividad[ejercicio].elementos[i]).attr("onClick","animar('"+quien+"','"+es+"','"+i+"')");
+          $("#soy"+listaActividad[ejercicio].elementos[i]).attr("class","tarjetas");
+        }
+
+      //
+      $("#"+listaActividad[ejercicio].correcta).attr("class","soltable");
+        $("#"+listaActividad[ejercicio].correcta).addClass("dibujoVerbo");
+      break;
+      default:
+  }
+
+  $("#contenedor").attr("style","padding-left: 20px; padding-right: 20px; font-family: 'Muli'; font-size: 16px;");
+  $("#contenedor").append("<img id='next' class='btnRevisar' align=right src='img/icons/nextInactivo.png'><br>");
+  palabraCorrecta = listaActividad[ejercicio].correcta;
+  console.log(palabraCorrecta);
+};
 
  Vista.prototype.vActividadDrop = function (objetivo) {
 

@@ -510,7 +510,8 @@ Vista.prototype.vActividadDrag = function (listaActividad,cantidad,instrucciones
   totalEjercicios=maxItems;
   $("#contenedor").append("<audio id='correct' src='audios/correct.mp3'></audio>");
   $("#contenedor").append("<audio id='wrong' src='audios/wrong.mp3'></audio>");
-  $("#contenedor").append("<br><h4>"+instrucciones+"</h4>");
+  $("contenedor").append("<div id='intruc' class='row'></div>")
+  $("#instruc").append("<br><h4>"+instrucciones+"</h4>");
   console.log(Controlador.nivel);
   switch (Controlador.nivel-1) {
     case 3:
@@ -551,8 +552,8 @@ $(objetoHTML).attr("css", "padding:0");
             listaObjetosHTML.push(objetoHTML);
             listaObjetosHTML.push("<br><br>");
     }
-      $("#contenedor").append("<div id='nuevoCuadro' class='row'> <br><br><div id='vacio' class='col-xs-7'><br><img class='img-resposive' id="+listaActividad[ejercicio].correcta+" src=img/draws/"+listaActividad[ejercicio].imagen+"></div><div id='lateral' style= 'display: inline-block' align='right' class='col-xs-5'>");
-      // $('#espacioArrastrable').addClass("espacioDisponible");
+      $("#contenedor").append("<div id='nuevoCuadro' style='background-color:black' class='row'> <br><br><div style='background-color:gray'  class='col-xs-7'><br><img class='img-resposive' id="+listaActividad[ejercicio].correcta+" src=img/draws/"+listaActividad[ejercicio].imagen+"></div><div id='lateral' style='background-color:red' align='right' class='col-xs-5'>");
+      // $('#').addClass("espacioDisponible");
       $("#lateral").append(listaObjetosHTML);
       $("#contenedor").append("</div></div>");
 

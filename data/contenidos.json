@@ -5,7 +5,7 @@
             {"verbos":
               [ {"verbo":["regarder", "J'ai regardé", "Je regarderai", "mirar"]},
                 {"verbo":["manger", "J'ai mangé", "Je mangerai", "comer"]},
-                {"verbo":["ecouter", "J'ai écouté", "J'écouterai", "escuchar"]},
+                {"verbo":["écouter", "J'ai écouté", "J'écouterai", "escuchar"]},
                 {"verbo":["observer", "J'ai observé", "J'observerai", "observar"]},
                 {"verbo":["dessiner", "J'ai dessiné", "Je dessinerai", "dibujar"]},
                 {"verbo":["participer", "J'ai participé", "Je participerai", "participar"]},
@@ -19,8 +19,8 @@
             {"actividades":
               [
                 { "idPregunta":"pregunta1" , "parte1":"Je peux", "parte2":"la télévision le samedi soir.", "verbo":"regarder","correcto":"regarder"},
-                { "idPregunta":"pregunta2" , "parte1":"J'", "parte2":"du riz et des haricots á midi.", "verbo":"manger" ,"correcto":"ai mangé"},
-                { "idPregunta":"pregunta3" , "parte1":"Demain, J'", "parte2":"le prof en classe.", "verbo":"ecouter", "correcto":"écouterai"},
+                { "idPregunta":"pregunta2" , "parte1":"J'", "parte2":"du riz et des haricots à midi.", "verbo":"manger" ,"correcto":"ai mangé"},
+                { "idPregunta":"pregunta3" , "parte1":"Demain, J'", "parte2":"le prof en classe.", "verbo":"écouter", "correcto":"écouterai"},
                 { "idPregunta":"pregunta4" , "parte1":"Avant de ", "parte2":"il faut lever le doigt.", "verbo":"parler", "correcto":"parler"},
                 { "idPregunta":"pregunta5" , "parte1":"Hier , j'", "parte2":"un chat et un oiseau.  ", "verbo":"dessiner","correcto":"ai dessiné"},
                 { "idPregunta":"pregunta6" , "parte1":"On peut", "parte2":"les étoiles dans le ciel.", "verbo":"observer","correcto":"observer"},
@@ -30,7 +30,7 @@
               ]
             },
             {"verbos":
-                [ {"verbo":["entrer", "J'suis entré", "J'entrerai", "entrar"]},
+                [ {"verbo":["entrer", "Je suis entré", "J'entrerai", "entrar"]},
                   {"verbo":["laver", "J'ai lavé", "Je laverai", "lavar"]},
                   {"verbo":["lancer", "J'ai lancé", "Je lancerai", "lanzar"]},
                   {"verbo":["cuisiner", "J'ai cuisiné", "Je cuisinerai", "cocinar"]},
@@ -47,10 +47,10 @@
               [
                 { "idPregunta":"pregunta1" , "parte1":"Aujourd'hui Silvie ", "parte2":"les verres de vin .", "verbo1":"lave", "verbo2":"laverai", "correcto":"lave"},
                 { "idPregunta":"pregunta2" , "parte1":"Tu ", "parte2":"ce soir pour nos invités.", "verbo1":"as cuisiné", "verbo2":"cuisines", "correcto":"cuisines"},
-                { "idPregunta":"pregunta3" , "parte1":"", "parte2":"c'est une experience de vie!", "verbo1":"voyager","verbo2":"voyagerai", "correcto":"voyager"},
+                { "idPregunta":"pregunta3" , "parte1":"", "parte2":"c'est une expérience de vie!", "verbo1":"voyager","verbo2":"voyagerai", "correcto":"voyager"},
                 { "idPregunta":"pregunta4" , "parte1":"J'", "parte2":"cette nouvelle voiture.", "verbo1":"achèter", "verbo2":"achèterai", "correcto":"achèterai"},
                 { "idPregunta":"pregunta5" , "parte1":"Je", "parte2":"cette fusée vers le ciel.", "verbo1":"lancerai", "verbo2":"lancer", "correcto":"lancerai"},
-                { "idPregunta":"pregunta6" , "parte1":"La semaine derniére ,je", "parte2":"dans cette grande maison.", "verbo1":"suis entré", "verbo2":"entrerai", "correcto":"suis entré"}
+                { "idPregunta":"pregunta6" , "parte1":"La semaine dernière ,je", "parte2":"dans cette grande maison.", "verbo1":"suis entré", "verbo2":"entrerai", "correcto":"suis entré"}
               ]
             },
             {"verbos":
@@ -85,7 +85,7 @@
                 {"verbo":["étudier", "J'ai étudié", "J'étudierai", "estudiar"]},
                 {"verbo":["gagner", "J'ai gagné", "Je gagnerai", "ganar"]},
                 {"verbo":["répéter", "J'ai répété", "Je répèterai", "repetir"]},
-                {"verbo":["courir", "J'ai couru", "Je courrerai", "correr"]},
+                {"verbo":["courir", "J'ai couru", "Je courrai", "correr"]},
                 {"verbo":["sortir", "Je suis sorti", "Je sortirai", "salir"]},
                 {"verbo":["naitre", "Je suis né", "Je naitrai", "nacer"]}
               ]
@@ -94,7 +94,7 @@
             {"actividades":
               [
                 {"id":0, "elementos":["répéter","étudier","détester"],"objetivo":"blank_space","imagen":"estudiar.png","correcta":"étudier"},
-                {"id":1, "elementos":["naitre","sortir","gagner"],"objetivo":"blank_space","imagen":"nacer.png","correcta":"naitre"},
+                {"id":1, "elementos":["naitre","sortir","gagner"],"objetivo":"blank_space","imagen":"nacer.png","correcta":"naître"},
                 {"id":2, "elementos":["danser","étudier","courir"],"objetivo":"blank_space","imagen":"correr.png","correcta":"courir"},
                 {"id":3, "elementos":["commencer","gagner","naitre"],"objetivo":"blank_space","imagen":"ganar.png","correcta":"gagner"},
                 {"id":4, "elementos":["répéter","étudier","danser"],"objetivo":"blank_space","imagen":"bailar.png","correcta":"danser"},
@@ -102,7 +102,7 @@
               ]
             },
             {"verbos":
-              [ {"verbo":["rester", "J'suis resté", "Je resterai", "quedarse"]},
+              [ {"verbo":["rester", "Je suis resté", "Je resterai", "quedarse"]},
                 {"verbo":["souhaiter", "J'ai souhaité", "Je souhaiterai", "desear"]},
                 {"verbo":["toucher", "J'ai touché", "Je toucherai", "tocar"]},
                 {"verbo":["voter", "J'ai voté", "Je voterai", "votar"]},
@@ -120,17 +120,17 @@
                 { "idPregunta":"pregunta1" , "parte1":"Je ", "parte2":"dormir chez un ami.", "verbo":"rester","correcto":"suis resté"},
                 { "idPregunta":"pregunta2" , "parte1":"Karla ", "parte2":"ce pull pour son anniversaire.", "verbo":"souhaiter" ,"correcto":"a souhaité"},
                 { "idPregunta":"pregunta3" , "parte1":"Tu ", "parte2":"l'écran du portable.", "verbo":"toucher", "correcto":"toucheras"},
-                { "idPregunta":"pregunta4" , "parte1":"Les costariciens ", "parte2":"en février.", "verbo":"voter", "correcto":"voteront"},
-                { "idPregunta":"pregunta5" , "parte1":"Je  ", "parte2":"avec ce film demain au cinema!.", "verbo":"pleurer","correcto":"pleurerai"},
+                { "idPregunta":"pregunta4" , "parte1":"Les Costariciens ", "parte2":"en février.", "verbo":"voter", "correcto":"voteront"},
+                { "idPregunta":"pregunta5" , "parte1":"Je  ", "parte2":"avec ce film demain au cinéma!.", "verbo":"pleurer","correcto":"pleurerai"},
                 { "idPregunta":"pregunta6" , "parte1":"Nous ", "parte2":"d'aller aux Pays Bas.", "verbo":"rêver","correcto":"rêvons"},
-                { "idPregunta":"pregunta7" , "parte1":"Le message c'est:  ", "parte2":"notre planéte!", "verbo":"sauver","correcto":"sauver"},
-                { "idPregunta":"pregunta8" , "parte1":"Je ", "parte2":"la vie des animaux en voie de disparition.", "verbo":"protéger","correcto":"protegerai"}
+                { "idPregunta":"pregunta7" , "parte1":"Le message c'est:  ", "parte2":"notre planète!", "verbo":"sauver","correcto":"sauver"},
+                { "idPregunta":"pregunta8" , "parte1":"Je ", "parte2":"la vie des animaux en voie de disparition.", "verbo":"protéger","correcto":"protégerai"}
 
               ]
             },
             {"verbos":
-              [ {"verbo":["tomber", "Je suis tombè", "Je tomberai", "caer"]},
-                {"verbo":["monter", "Je suis montè", "Je monterai", "subir"]},
+              [ {"verbo":["tomber", "Je suis tombé", "Je tomberai", "caer"]},
+                {"verbo":["monter", "Je suis monté", "Je monterai", "subir"]},
                 {"verbo":["avoir", "J'ai eu", "J'aurai", "tener"]},
                 {"verbo":["etre", "J'ai été", "Je serai", "ser o estar"]},
                 {"verbo":["faire", "J'ai fait", "Je ferai", "hacer"]},
@@ -144,10 +144,10 @@
 
             {"actividades":
               [
-                { "idPregunta":"pregunta1" , "parte1":"Tu", "parte2":"un accident á la plage?.", "verbo1":"as eu", "verbo2":"auras", "correcto":"as eu"},
-                { "idPregunta":"pregunta2" , "parte1":"Je", "parte2":"á Paris en été.", "verbo1":"ai été", "verbo2":"serai", "correcto":"serai"},
+                { "idPregunta":"pregunta1" , "parte1":"Tu", "parte2":"un accident à la plage?.", "verbo1":"as eu", "verbo2":"auras", "correcto":"as eu"},
+                { "idPregunta":"pregunta2" , "parte1":"Je", "parte2":"à Paris en été.", "verbo1":"ai été", "verbo2":"serai", "correcto":"serai"},
                 { "idPregunta":"pregunta3" , "parte1":"Lucas vient de", "parte2":"un examen d'italien.", "verbo1":"ferai","verbo2":"faire", "correcto":"faire"},
-                { "idPregunta":"pregunta4" , "parte1":"Nous", "parte2":"á la piscine le samedi prochain.", "verbo1":"irons", "verbo2":"sommes allés", "correcto":"irons"},
+                { "idPregunta":"pregunta4" , "parte1":"Nous", "parte2":"à la piscine le samedi prochain.", "verbo1":"irons", "verbo2":"sommes allés", "correcto":"irons"},
                 { "idPregunta":"pregunta5" , "parte1":"", "parte2":"c'est pouvoir !. ", "verbo1":"ai voulu", "verbo2":"vouloir", "correcto":"vouloir"},
                 { "idPregunta":"pregunta6" , "parte1":"Tu", "parte2":"chanter plus fort s'il vous plait!.", "verbo1":"as pu", "verbo2":"peux", "correcto":"peux"}
               ]
@@ -176,7 +176,7 @@
 
     {"creditos":
       [
-        {"Auteur":"Eugenia Rodríguez González", "Développeurs": "Oscar Pérez Ramírez,Patricia Hernández Conejo,Luis Chacón Campos.", "Graphiste_y_Enregistrement_audio": "Gabriela Cruz Martínez", "Audio": "Béatrice Passot.Colaboradora ACOPROF.", "Idée_originale":"Katherine Williams Jiménez." }
+        {"Auteur":"Eugenia Rodríguez González", "Développeurs": "Oscar Pérez Ramírez, Patricia Hernández Conejo, Luis Chacón Campos.", "Graphiste_y_Enregistrement_audio": "Gabriela Cruz Martínez", "Audio": "Béatrice Passot. Colaboradora ACOPROF.", "Idée_originale":"Katherine Williams Jiménez." }
       ]
     }
   ]

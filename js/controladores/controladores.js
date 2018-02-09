@@ -63,7 +63,7 @@ Controlador.prototype.cMenu = function () {
   aciertos=0;
   console.log("Controlador Menú");
   Controlador.vista.vEncabezado("img/logo.png","<img style='margin-left:20%; margin-top:-15px; height:10%; width:10%' src='img/icons/configurar.png' onClick='Controlador.prototype.cModal()'>","img/icons/Info.png");
-  Controlador.vista.vBotones("Niveau",Controlador.listaEtiquetas, "botones-menu");
+  Controlador.vista.vBotones("Niveaux",Controlador.listaEtiquetas, "botones-menu");
   this.cManejadorEventoClic("botones-menu",this.cPantallas);
   console.log(Controlador.listaEtiquetas);
 };
@@ -71,26 +71,26 @@ Controlador.prototype.cMenu = function () {
 
 Controlador.prototype.cMenuKaraoke = function () {
   pantalla = 3;
-  console.log("Controlador menú karaoke");
+  console.log("Controlador menú karaoké");
   Controlador.vista.vEncabezado("img/logo.png","","img/icons/Info.png");
-  Controlador.vista.vMenuKaraoke("Karaoke","botones-karaoke","Chantez et pratiquez des verbes au sein de ces chansons");
-  this.cManejadorEventoClic("botones-karaoke",this.cPantallas);
+  Controlador.vista.vMenuKaraoke("Karaoké","botones-karaoké","Chantez et pratiquez des verbes au sein de ces chansons");
+  this.cManejadorEventoClic("botones-karaoké",this.cPantallas);
   Controlador.vista.vPiePantalla("","img/icons/home.PNG","");
 
 };
 
 Controlador.prototype.cDetalleKaraoke = function () {
   icono = "<img src=>"
-  console.log("Controlador detalle karaoke");
+  console.log("Controlador detalle karaoké");
   tituloCancion = Controlador.mainArray.webApp["2"].canciones[Controlador.cancion-1].titulo;
   interpreteCancion = Controlador.mainArray.webApp["2"].canciones[Controlador.cancion-1].artista;
   detalleCancion = Controlador.mainArray.webApp["2"].canciones[Controlador.cancion-1].descripcion;
   enlace1 = Controlador.mainArray.webApp["2"].canciones[Controlador.cancion-1].url1;
   enlace2 = Controlador.mainArray.webApp["2"].canciones[Controlador.cancion-1].url2;
   Controlador.vista.vEncabezado("img/logo.png","","img/icons/Info.png");
-  Controlador.vista.vDetalleKaraoke("Karaoke",tituloCancion,interpreteCancion,detalleCancion,enlace1,enlace2,"explicaciones");
+  Controlador.vista.vDetalleKaraoke("karaoké",tituloCancion,interpreteCancion,detalleCancion,enlace1,enlace2,"explicaciones");
   pantalla = 5;
-  this.cManejadorEventoClic("botones-karaoke",this.cPantallas);
+  this.cManejadorEventoClic("botones-karaoké",this.cPantallas);
   Controlador.vista.vPiePantalla("img/icons/Izquierda-T.png","img/icons/home.PNG","");
 };
 
@@ -111,7 +111,7 @@ Controlador.prototype.cCreditos = function () {
 Controlador.prototype.cSubMenu = function () {
   console.log("Controlador SubMenú");
   this.cargarVerbos();
-  Controlador.vista.vEncabezado("","Niveau "+(Controlador.nivel/2+1),"");
+  Controlador.vista.vEncabezado("","Niveaux "+(Controlador.nivel/2+1),"");
   Controlador.vista.vPiePantalla("","img/icons/home.PNG","img/icons/practicaBloqueada.png");
   Controlador.vista.vSubMenu(Controlador.listaVerbos, "botones-verbos");
   console.log("los verbos son: "+Controlador.listaVerbos);
@@ -149,7 +149,7 @@ else {
 };
 
 Controlador.prototype.cDetalleVerbo = function () {
-  Controlador.vista.vEncabezado("","Niveau "+(Controlador.nivel/2+1),"");
+  Controlador.vista.vEncabezado("","Niveaux "+(Controlador.nivel/2+1),"");
   Controlador.prototype.verDetalle();
   Controlador.vista.vDetalleVerbo(Controlador.tiemposVerbales, "detalle-verbos");
   $("#verbo0").click(Controlador.prototype.cAudios);
@@ -371,7 +371,7 @@ if (nivel == 1) {
     }
     console.log("Total de preguntas del nivel: "+ Controlador.completar.length);
     console.log(Controlador.completar);
-    Vista.prototype.vEncabezado("img/icons/llave-M.png","Niveau "+(nivel),"");
+    Vista.prototype.vEncabezado("img/icons/llave-M.png"," "+(nivel),"");
       Controlador.vista.vPiePantalla("img/icons/Izquierda-T.png","img/icons/home.PNG","img/icons/llave-inactiva.png");
     Vista.prototype.vCompletar();
 
@@ -388,7 +388,7 @@ Controlador.prototype.actividadSeleccionar = function (nivel) {
   }
     console.log("Total de preguntas del nivel 2: "+ Controlador.seleccionar.length);
     console.log(Controlador.seleccionar);
-    Vista.prototype.vEncabezado("img/icons/llave-M.png","Niveau "+(nivel),"");
+    Vista.prototype.vEncabezado("img/icons/llave-M.png"," "+(nivel),"");
     Vista.prototype.vSeleccionar();
     Controlador.vista.vPiePantalla("img/icons/Izquierda-T.png","img/icons/home.PNG","img/icons/llave-inactiva.png");
 };
@@ -396,9 +396,9 @@ Controlador.prototype.actividadSeleccionar = function (nivel) {
 Controlador.prototype.arrastrar = function (actividad, indicaciones) {
   console.log("Tamaño: "+Controlador.mainArray.webApp["0"].niveles[actividad].actividades.length);
 if (Controlador.nivel == 4) {
-  Controlador.vista.vEncabezado("img/icons/llave-M.png","Niveau 3","");}
+  Controlador.vista.vEncabezado("img/icons/llave-M.png"," 3","");}
   if (Controlador.nivel == 6) {
-    Controlador.vista.vEncabezado("img/icons/llave-M.png","Niveau 4","");}
+    Controlador.vista.vEncabezado("img/icons/llave-M.png","Niveaux 4","");}
     Controlador.vista.vPiePantalla("img/icons/Izquierda-T.png","img/icons/home.PNG","img/icons/llave-inactiva.png");
   Controlador.vista.vActividadDrag(Controlador.mainArray.webApp["0"].niveles[actividad].actividades,5,indicaciones);
   Controlador.vista.vActividadDrop(Controlador.mainArray.webApp["0"].niveles[actividad].actividades.imagen);

@@ -73,8 +73,8 @@ Controlador.prototype.cMenuKaraoke = function () {
   pantalla = 3;
   console.log("Controlador menú karaoké");
   Controlador.vista.vEncabezado("img/logo.png","","img/icons/Info.png");
-  Controlador.vista.vMenuKaraoke("Karaoké","botones-karaoké","Chantez et pratiquez des verbes au sein de ces chansons");
-  this.cManejadorEventoClic("botones-karaoké",this.cPantallas);
+  Controlador.vista.vMenuKaraoke("Karaoké","botones-karaoke","Chantez et pratiquez des verbes au sein de ces chansons");
+  this.cManejadorEventoClic("botones-karaoke",this.cPantallas);
   Controlador.vista.vPiePantalla("","img/icons/home.PNG","");
 
 };
@@ -90,7 +90,7 @@ Controlador.prototype.cDetalleKaraoke = function () {
   Controlador.vista.vEncabezado("img/logo.png","","img/icons/Info.png");
   Controlador.vista.vDetalleKaraoke("karaoké",tituloCancion,interpreteCancion,detalleCancion,enlace1,enlace2,"explicaciones");
   pantalla = 5;
-  this.cManejadorEventoClic("botones-karaoké",this.cPantallas);
+  this.cManejadorEventoClic("botones-karaoke",this.cPantallas);
   Controlador.vista.vPiePantalla("img/icons/Izquierda-T.png","img/icons/home.PNG","");
 };
 

@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Muli', sans-serif;
+    background-color: #f1f5f9;
+    color: #334155;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-family: 'Palanquin Dark', sans-serif;
+  }
+}
+
+.rayita-divider {
+  border: 0;
+  height: 10px;
+  width: 100%;
+  background-image: url('/img/rayita.png');
+  background-repeat: repeat-x;
+  background-position: center;
+}
+
+@keyframes pulse-highlight {
+  0%, 100% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 0px rgba(0, 158, 227, 0));
+  }
+  50% {
+    transform: scale(1.04);
+    filter: drop-shadow(0 4px 10px rgba(0, 158, 227, 0.45));
+  }
+}
+
+.char-selected {
+  animation: pulse-highlight 2s infinite ease-in-out;
+}
